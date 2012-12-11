@@ -39,3 +39,11 @@ rm -rf $RPM_BUILD_ROOT
 %doc COPYING AUTHORS README.txt
 %{py_sitedir}/augeas.py*
 %{py_sitedir}/*augeas*.egg-info
+
+
+%changelog
+* Tue Jan 25 2011 Guilherme Moro <guilherme@mandriva.com> 0.4.0-1mdv2011.0
++ Revision: 632650
+- Initial import of the package
+- Created package structure for python-augeas.
+
