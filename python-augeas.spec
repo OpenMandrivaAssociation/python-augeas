@@ -1,5 +1,3 @@
-%define	release	%mkrel 1
-
 Name:		python-augeas
 Version:	0.4.1
 Release:	1
@@ -9,7 +7,7 @@ License:	LGPLv2+
 Url:		http://augeas.net/
 Source0:	http://augeas.net/download/python/%{name}-%{version}.tar.gz
 BuildArch:	noarch
-Requires:	libaugeas-devel
+Requires:	pkgconfig(augeas)
 BuildRequires:	python-setuptools python-devel
 
 
@@ -32,7 +30,6 @@ python setup.py install -O1 --skip-build --root=%{buildroot}
 %clean
 
 %files
-%defattr(-,root,root,-)
 %doc COPYING AUTHORS README.txt
 %{py_puresitedir}/augeas.py*
 %{py_puresitedir}/*augeas*.egg-info
