@@ -1,11 +1,11 @@
 Name:		python-augeas
-Version:	0.4.1
+Version:	0.5.0
 Release:	1
 Summary:	Python bindings to augeas
 Group:		Development/Python
 License:	LGPLv2+
 Url:		http://augeas.net/
-Source0:	http://augeas.net/download/python/%{name}-%{version}.tar.gz
+Source0:	https://fedorahosted.org/released/python-augeas/%{name}-%{version}.tar.gz
 BuildArch:	noarch
 Requires:	pkgconfig(augeas)
 BuildRequires:	python-setuptools python-devel
@@ -33,12 +33,3 @@ python setup.py install -O1 --skip-build --root=%{buildroot}
 %doc COPYING AUTHORS README.txt
 %{py_puresitedir}/augeas.py*
 %{py_puresitedir}/*augeas*.egg-info
-
-
-%changelog
-* Tue Jan 25 2011 Guilherme Moro <guilherme@mandriva.com> 0.4.0-1mdv2011.0
-+ Revision: 632650
-- Initial import of the package
-- Created package structure for python-augeas.
-
-
