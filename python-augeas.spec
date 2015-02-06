@@ -1,6 +1,6 @@
 Name:		python-augeas
 Version:	0.5.0
-Release:	1
+Release:	2
 Summary:	Python bindings to augeas
 Group:		Development/Python
 License:	LGPLv2+
