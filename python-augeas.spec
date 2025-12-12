@@ -1,6 +1,6 @@
 Name:		python-augeas
 Version:	1.1.0
-Release:	3
+Release:	4
 Source0:	https://files.pythonhosted.org/packages/source/p/python-augeas/python-augeas-%{version}.tar.gz
 Summary:	Python bindings for Augeas
 URL:		https://pypi.org/project/parsedatetime/
