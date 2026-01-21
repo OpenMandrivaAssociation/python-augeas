@@ -9,6 +9,7 @@ Group:		Development/Python
 BuildSystem:	python
 BuildRequires:	pkgconfig(augeas)
 BuildRequires:	pkgconfig(python3)
+BuildRequires:	python%{pyver}dist(cffi)
 
 %description
 Python bindings for Augeas
