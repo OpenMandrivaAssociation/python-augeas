@@ -1,6 +1,6 @@
 Name:		python-augeas
 Version:	1.2.0
-Release:	1
+Release:	2
 Source0:	https://files.pythonhosted.org/packages/source/p/python-augeas/python-augeas-%{version}.tar.gz
 Summary:	Python bindings for Augeas
 URL:		https://pypi.org/project/python-augeas/
